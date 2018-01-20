@@ -7,7 +7,10 @@
 3. Hoisting
 4. Event loop y Sync / Async
 5. Para que sirve this
-6. Un breve repaso de objetos en JS
+   * Propiedades de objetos
+   * Bind
+   * New Constructor
+6. Repaso de objetos en ES5
 
 - Nuevo en ES6:
 
@@ -17,3 +20,7 @@
 4. String templates
 5. Property Shorthand
 6. Arrow functions y this
+
+- Recursos para reforzar:
+
+[This en JavaScript](https://medium.com/entendiendo-javascript/entendiendo-this-javascript-cba60c8cec8c)
