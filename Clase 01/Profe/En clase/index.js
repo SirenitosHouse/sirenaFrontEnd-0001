@@ -333,3 +333,5 @@
 // }
 
 // const user2 = new User2('Pachi')
+
+console.log('APto')
