@@ -1,4 +1,4 @@
-# Curso de Sirena Front End - Camada 0001 💾
+# Curso de Sirena Front End - Camada 0001 💾 🚀
 
 Buenas, les arme este repositorio para ir subiendo cada clase que hagamos juntos, por cada una les voy a agregar una carpeta con el número de la clase y adentro van a encontrar:
 
