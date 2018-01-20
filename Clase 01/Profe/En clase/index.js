@@ -334,4 +334,12 @@
 
 // const user2 = new User2('Pachi')
 
-console.log('APto')
+// E. Como agregar elementos en un array
+
+// const studentsArray = [ 'Gus' ]
+
+// console.log(studentsArray)
+
+// studentsArray.push('Pachi')
+
+// console.log(studentsArray)
