@@ -1,11 +1,11 @@
-const movies = require('./movies')
+const movies = require('./movies').movies
 const punto3 = require('./punto3')
 const punto4 = require('./punto4')
 
 describe('Punto 3. Usando Array#reduce reproducir la funcionaliadad de los metodos map, filter, find e indexOf', () => {
   ;((punto3.mapMoviesToTitles && test) ||
     test.skip)(
-    'a. Crear y exportar una funcion con nombre `mapMoviesToTitles` que reciba como primer y unico parametro un array de Movies y devuelva un array con los respectivos titulos',
+    'a. `mapMoviesToTitles` recibe un array de Movies y devuelva un array con los respectivos titulos',
     () => {
       expect(punto3.mapMoviesToTitles(movies)).toEqual([
         'The Godfather',
@@ -63,7 +63,7 @@ describe('Punto 3. Usando Array#reduce reproducir la funcionaliadad de los metod
   )
   ;((punto3.ninetiesMovies && test) ||
     test.skip)(
-    'b. Crear y exportar una funcion con nombre `ninetiesMovies` que reciba como primer y unico parametro un array de Movies y devuelva un array que contenga solo peliculas estrenadas entre el 1990 y 1999',
+    'b. `ninetiesMovies` recibe un array de Movies y devuelva un array que contenga solo peliculas estrenadas entre el 1990 y 1999',
     () => {
       expect(punto3.ninetiesMovies(movies)).toEqual([
         {
@@ -281,7 +281,7 @@ describe('Punto 3. Usando Array#reduce reproducir la funcionaliadad de los metod
   )
   ;((punto3.melGibsonMovies && test) ||
     test.skip)(
-    'c. Crear y exportar una funcion con nombre `melGibsonMovies` que reciba como primer y unico parametro un array de Movies y devuelva un array que contenga solo peliculas en las que `Mel Gibson` sea un actor',
+    'c. `melGibsonMovies` recibe un array de Movies y devuelva un array que contenga solo peliculas en las que `Mel Gibson` sea un actor',
     () => {
       expect(punto3.melGibsonMovies(movies)).toEqual([
         {
@@ -294,7 +294,7 @@ describe('Punto 3. Usando Array#reduce reproducir la funcionaliadad de los metod
   )
   ;((punto3.findActorsOfCasablanca && test) ||
     test.skip)(
-    'c. Crear y exportar una funcion con nombre `findActorsOfCasablanca` que reciba como primer y unico parametro un array de Movies y devuelva un array que contenga solo los actores de la pelicula `Casablanca`',
+    'c. `findActorsOfCasablanca` recibe un array de Movies y devuelva un array que contenga solo los actores de la pelicula `Casablanca`',
     () => {
       expect(punto3.findActorsOfCasablanca(movies)).toEqual([ 'Ingrid Bergman', 'Humphrey Bogart', 'Peter Lorre' ])
     }
@@ -304,7 +304,7 @@ describe('Punto 3. Usando Array#reduce reproducir la funcionaliadad de los metod
 describe('Punto 4. Crear las mismas funciones del punto anterior pero usando las funciones nativas de Array', () => {
   ;((punto4.mapMoviesToTitles && test) ||
     test.skip)(
-    'a. Crear y exportar una funcion con nombre `mapMoviesToTitles` que reciba como primer y unico parametro un array de Movies y devuelva un array con los respectivos titulos',
+    'a. `mapMoviesToTitles` recibe un array de Movies y devuelva un array con los respectivos titulos',
     () => {
       expect(punto4.mapMoviesToTitles(movies)).toEqual([
         'The Godfather',
@@ -362,7 +362,7 @@ describe('Punto 4. Crear las mismas funciones del punto anterior pero usando las
   )
   ;((punto4.ninetiesMovies && test) ||
     test.skip)(
-    'b. Crear y exportar una funcion con nombre `ninetiesMovies` que reciba como primer y unico parametro un array de Movies y devuelva un array que contenga solo peliculas estrenadas entre el 1990 y 1999',
+    'b. `ninetiesMovies` recibe un array de Movies y devuelva un array que contenga solo peliculas estrenadas entre el 1990 y 1999',
     () => {
       expect(punto4.ninetiesMovies(movies)).toEqual([
         {
@@ -580,7 +580,7 @@ describe('Punto 4. Crear las mismas funciones del punto anterior pero usando las
   )
   ;((punto4.melGibsonMovies && test) ||
     test.skip)(
-    'c. Crear y exportar una funcion con nombre `melGibsonMovies` que reciba como primer y unico parametro un array de Movies y devuelva un array que contenga solo peliculas en las que `Mel Gibson` sea un actor',
+    'c. `melGibsonMovies` recibe un array de Movies y devuelva un array que contenga solo peliculas en las que `Mel Gibson` sea un actor',
     () => {
       expect(punto4.melGibsonMovies(movies)).toEqual([
         {
@@ -593,7 +593,7 @@ describe('Punto 4. Crear las mismas funciones del punto anterior pero usando las
   )
   ;((punto4.findActorsOfCasablanca && test) ||
     test.skip)(
-    'c. Crear y exportar una funcion con nombre `findActorsOfCasablanca` que reciba como primer y unico parametro un array de Movies y devuelva un array que contenga solo los actores de la pelicula `Casablanca`',
+    'c. `findActorsOfCasablanca` recibe un array de Movies y devuelva un array que contenga solo los actores de la pelicula `Casablanca`',
     () => {
       expect(punto4.findActorsOfCasablanca(movies)).toEqual([ 'Ingrid Bergman', 'Humphrey Bogart', 'Peter Lorre' ])
     }

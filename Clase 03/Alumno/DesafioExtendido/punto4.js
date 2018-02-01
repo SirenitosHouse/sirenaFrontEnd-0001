@@ -32,7 +32,7 @@
 // como primer y unico parametro un array de Movies y devuelva un array que contenga
 // solo los actores de la pelicula`Casablanca`
 //
-// export function findActorsOfCasablanca (movies) {
-//    const casablanca = movies.find(/* movie.title sea igual a `Casablanca` */)
-//    return casablanca.actors
-//}
+// export function findActorsOfCasablanca (movies){
+//   const casablanca = movies.find(/* movie.title sea igual a `Casablanca` */)
+//   return casablanca.actors
+// }
