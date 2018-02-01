@@ -1,4 +1,4 @@
-export const movies = [
+exports.movies = [
   {
     title  : 'The Godfather',
     actors : [ 'Al Pacino', 'Marlon Brando', 'Robert Duvall' ],
