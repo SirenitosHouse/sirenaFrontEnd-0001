@@ -12,7 +12,7 @@
     "regenerator-runtime": "^0.11.1"
   },
   "scripts": {
-    "test": "jest \"./Clase\\ 03/Alumno/Desafío\\ Extendido\""
+    "test": "jest \"./Clase 03/Alumno/DesafioExtendido\""
   },
   "repository": {
     "type": "git",
