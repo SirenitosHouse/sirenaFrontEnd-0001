@@ -5,11 +5,11 @@
 ## Indice
 
 * [Introducción](#introduccion)
-* [Revisión por Pull Request](#revision-po-pull-request)
+* [Revisión por Pull Request](#revisi%C3%B3n-por-pull-request)
 * Desafíos:
-  * [Desafío Clase 02](./blob/master/Clase%2002/Alumno/Desafío/Enunciado.md)
-  * [Desafío Extendido (Episodio I): Mejor ser vago](./blob/master/Clase%2003/Alumno/DesafioExtendido/Enunciado.md)
-  * [Desafío Clase 04](./blob/master/Clase%2004/Alumno/Desafío/Enunciado.md)
+  * [Desafío Clase 02](./Clase%2002/Alumno/Desafío/Enunciado.md)
+  * [Desafío Extendido (Episodio I): Mejor ser vago](./Clase%2003/Alumno/DesafioExtendido/Enunciado.md)
+  * [Desafío Clase 04](./Clase%2004/Alumno/Desafío/Enunciado.md)
   * Desafío Extendido (Episodio II): Don't repeat yourself.
   * Desafío Clase 06
   * Desafío Extendido (Episodio III): Hay un modulo para eso.
@@ -51,3 +51,5 @@ Cada vez que actualice la info les voy a avisar por Slack, pero el repositorio v
 Cualquier duda o material extra que precisen me van preguntado, éxitos! 😁
 
 ## Revisión por Pull Request
+
+![Loom](https://www.useloom.com/share/ecdb6da1b20041028f0ab15576a3a647)
