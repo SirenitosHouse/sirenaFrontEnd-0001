@@ -4,7 +4,7 @@
 
 ## Indice
 
-* [Introducción](#introduccion)
+* [Introducción](#introducci%C3%B3n)
 * [Revisión por Pull Request](#revisi%C3%B3n-por-pull-request)
 * Desafíos:
   * [Desafío Clase 02](./Clase%2002/Alumno/Desafío/Enunciado.md)
@@ -52,4 +52,4 @@ Cualquier duda o material extra que precisen me van preguntado, éxitos! 😁
 
 ## Revisión por Pull Request
 
-![Loom](https://www.useloom.com/share/ecdb6da1b20041028f0ab15576a3a647)
+[Loom](https://www.useloom.com/share/ecdb6da1b20041028f0ab15576a3a647)
