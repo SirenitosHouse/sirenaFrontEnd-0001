@@ -1,3 +1,9 @@
+# Desectructive assigment
+
+# Input levantar datos
+
+# Lista y keys
+
 # Como pasar datos a un padre
 
 # Ciclo de vida de un componente de React
@@ -26,5 +32,7 @@
    * componentWillUnmount
 
 [Pokémon API](https://pokeapi.co/)
+
+[Guía React](http://www.react.express)
 
 [Ciclo de vida del componente](http://busypeoples.github.io/post/react-component-lifecycle/)
