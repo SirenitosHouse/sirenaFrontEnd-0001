@@ -41,7 +41,7 @@ export const fetchPokemonDetail = (url) => {
     dispatch({
       type : FETCH_POKEMON_DETAIL_SEARCHING
     })
-    request('ppe', 'GET').then((response) => {
+    request(url, 'GET').then((response) => {
       dispatch({
         type    : FETCH_POKEMON_DETAIL_SEARCHED,
         payload : response

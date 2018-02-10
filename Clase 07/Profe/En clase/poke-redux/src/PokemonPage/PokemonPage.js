@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
+import { connect } from 'react-redux'
+
 import PokemonDetail from './PokemonDetail'
 import PokemonInput from './PokemonInput'
 import PokemonList from './PokemonList'
-import { request } from './utils'
-import { connect } from 'react-redux'
 
 import { fetchPokemons, fetchPokemonDetail } from './actions'
 
